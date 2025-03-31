@@ -1,12 +1,14 @@
-# React + Vite
+# Projeto game 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1) criando projeto : npm create vite@latest .
+2) Limpando projeto (dicas.txt)
+3) inicia git
+4)  add e fazer commit
+5)  subir projetos para o repo no github
+6)  criar branch dev - git checkout -b dev
+7)   criando as pastas componentes, routes, styles
+8)   instalar as dependências utilizadas no projeto
+     npm install react-router-dom
+     npm install styled-components
+9) Verifica se tem a extensão ES7 react
+10) criando os componentes do projeto
