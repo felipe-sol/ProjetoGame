@@ -4,6 +4,9 @@ import Error from './routes/Error'
 import Jogador from './routes/Jogador'
 import Home from './routes/Home'
 import Aside from './routes/Aside'
+import Footer from '.components/Footer'
+import Header from '.components/Header'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,7 +22,7 @@ function App() {
             <Route path="/jogador" element={<Jogador/>}/>
         </Routes>
         <Aside/>
-        <footer/>
+        <Footer/>
       </Router>
       <Aside/>
     </>
