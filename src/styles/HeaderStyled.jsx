@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Header from "../components/Header";
 
 export const HeaderContainer =styled.header`
     background:#01269;
