@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-dom-router'
+import {Link} from 'react-router-dom'
 import{HeaderContainer, Nav} from '../styles/HeaderStyled'
 
 const Header = () => {

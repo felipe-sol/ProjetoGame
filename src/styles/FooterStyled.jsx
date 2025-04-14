@@ -1,16 +1,19 @@
 import styled from "styled-components"
 import Footer from "../components/Footer"
 
-export const FooterContainer = styled.div`
+export const FooterContainer = styled.footer`
 
-    background: green;
-    color:black;
+    background: #49f273;
+    color:#a8a8a8;
     padding: 20px;
     margin-top:auto;
-
+`
+export const FooterContext =styled.div`
     display: flex;
     justify-content:space-around;
     max-width:1220px;
+    
+
 
     h3{
         margin-bottom:10px;
@@ -23,9 +26,10 @@ export const FooterContainer = styled.div`
         margin-bottom:5px;
     }
     a{
-        color:white;
+        color:#f8f8f8;
         color-decoration:none
     }
+
 
 
 

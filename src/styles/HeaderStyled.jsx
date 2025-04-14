@@ -1,28 +1,27 @@
 import styled from "styled-components";
-import Header from "../components/Header";
-
+ 
 export const HeaderContainer =styled.header`
-    background:#01269;
+    background:#012619;
     padding:20px;
     display:flex;
-    justify-content:space-around;
+    justify-content: space-around;
 `;
-
-export const Nav = styled.Nav `
+export const Nav = styled.nav `
     ul{
-        list-style:none
+        list-style:none;
         padding:0;
         margin:0;
         display:flex;
     }
     li{
-        margin: 0 15px
+        margin:0 15px;
     }
     a{
-        color:green;
+        color:#49f273;
         text-decoration:none;
-        text-transform:uppercase;
-        padding:5px 15px
+        text-transform: uppercase;
+        padding:5px 10px;
     }
-`       
-
+   
+`
+      

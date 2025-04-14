@@ -1,4 +1,5 @@
 import React from 'react'
+import {ProdutoContainer} from '../styles/ProdutoStyled'
 
 //props vai pegar de cada propriedade em outro local
 const Produtos = (imagem,titulo,descricao,preco) => {
