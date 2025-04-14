@@ -8,5 +8,5 @@ export const ProdutoContainer = styled.article`
     border:1px solid ;
     background-image: linear-gradient(#2b86c5,#784ba0,#ff3CAC);
     border-radius:30px;
-    color:#f1f1f1;
+    color:#f1f2f3;
 `
